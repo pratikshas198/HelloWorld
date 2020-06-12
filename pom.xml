@@ -75,5 +75,35 @@
       <version>${dropwizard.version}</version>
     </dependency>
 
+      <dependency>
+          <groupId>io.dropwizard</groupId>
+          <artifactId>dropwizard-hibernate</artifactId>
+          <version>${dropwizard.version}</version>
+      </dependency>
+
+      <dependency>
+          <groupId>org.apache.poi</groupId>
+          <artifactId>poi</artifactId>
+          <version>3.17</version>
+      </dependency>
+
+      <dependency>
+          <groupId>org.apache.poi</groupId>
+          <artifactId>poi-ooxml</artifactId>
+          <version>3.17</version>
+      </dependency>
+
+      <dependency>
+          <groupId>org.apache.poi</groupId>
+          <artifactId>poi-ooxml-schemas</artifactId>
+          <version>3.17</version>
+      </dependency>
+
+      <dependency>
+          <groupId>mysql</groupId>
+          <artifactId>mysql-connector-java</artifactId>
+          <version>8.0.20</version>
+      </dependency>
+
   </dependencies>
 </project>
